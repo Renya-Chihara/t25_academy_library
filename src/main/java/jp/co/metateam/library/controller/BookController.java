@@ -32,6 +32,7 @@ public class BookController {
         this.bookMstService = bookMstService;
     }
 
+    //テスト
     @GetMapping("/book/index")
     public String index(Model model) {
         // 書籍を全件取得
